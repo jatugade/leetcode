@@ -9,7 +9,9 @@
 let threeSum = function(nums) {
     let results = [];
     nums.sort((a,b) => a - b);
-    for (let i = 0; i < nums.length - 2; i++) {
+    for (let i = 0; i
+
+    < nums.length - 2; i++) {
         if (nums[i] !== nums[i-1]) {
             let target = -nums[i];
             let start = i + 1;
